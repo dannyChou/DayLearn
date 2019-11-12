@@ -1,0 +1,79 @@
+﻿:root {
+    --menuBarWidth: 140px;
+}
+
+.createButton {
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.menuBarItem {
+    margin-left: 3px;
+    margin-bottom: 3px;
+    width: 120px;
+}
+
+.templateContainer {
+    /*width: 40%;*/
+}
+
+.entitySeparator {
+    margin-bottom: 10px;
+    clear:both;
+}
+
+.reset {
+    clear: both;
+}
+
+.recordSeparator {
+    margin-bottom: 2px;
+}
+
+.recordDeselected {
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: transparent;
+}
+
+.recordSelected {
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: green;
+}
+
+.row {
+    float:left;
+}
+
+.menuBar {
+    width: var(--menuBarWidth);
+}
+
+.entityView {
+    width: calc(100% - var(--menuBarWidth)); /* width of menuBar + 10px */
+}
+
+.col1 {
+    width: 45%;
+}
+
+.col2 {
+    margin-left: 10px;
+    width: 45%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.menuBarItem {
+    /*border-width: 2px;*/
+    /* border-color: #FFA0A0;*/
+}
+
+.menuBarItemSelected {
+    /*border-color: #A0FFA0 !important;*/
+    color: white;
+    background-color:#808080;
+}
